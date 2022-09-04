@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14435fc0-84d2-4939-8de8-d7c3e5ea8ada" name="Changes" comment="wow login in wiki">
+    <list default="true" id="14435fc0-84d2-4939-8de8-d7c3e5ea8ada" name="Changes" comment="wow login in wiki and search">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pass.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pass.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main_page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main_page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../automationframework" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -84,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662260465978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wow login in wiki and search">
+      <created>1662261236446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662261236446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,7 +104,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="wow login in wiki" />
-    <option name="LAST_COMMIT_MESSAGE" value="wow login in wiki" />
+    <MESSAGE value="wow login in wiki and search" />
+    <option name="LAST_COMMIT_MESSAGE" value="wow login in wiki and search" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
