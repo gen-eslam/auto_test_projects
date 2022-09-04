@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14435fc0-84d2-4939-8de8-d7c3e5ea8ada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/login_page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main_page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/welcome/welcome_page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    <list default="true" id="14435fc0-84d2-4939-8de8-d7c3e5ea8ada" name="Changes" comment="wow login in wiki">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pass.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pass.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main_page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main_page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +77,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662242050302</updated>
     </task>
+    <task id="LOCAL-00001" summary="wow login in wiki">
+      <created>1662260465978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662260465978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="wow login in wiki" />
+    <option name="LAST_COMMIT_MESSAGE" value="wow login in wiki" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

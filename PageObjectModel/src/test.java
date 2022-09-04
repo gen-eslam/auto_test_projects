@@ -10,7 +10,9 @@ public class test {
 		welcome_page.clickEnglishButton();
 		login_page.clickLogin();
 		login_page.setUsernameAndPassword();
+
 		main_page.testSearch("Document Object Model");
+		utils.waitAmelisecond(3000);
 		utils.closeDriver();
 		}
 	}

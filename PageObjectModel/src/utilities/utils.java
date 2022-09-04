@@ -17,6 +17,13 @@ public class utils {
 		driver.get("http://www.wikipedia.org");
 		return driver;
 	}
+	public static void waitAmelisecond(int melisecond){
+		try {
+			Thread.sleep(melisecond);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 
 	public static void closeDriver() {
 		driver.close();

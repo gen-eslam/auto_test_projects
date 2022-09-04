@@ -14,4 +14,5 @@ public class main_page {
 		searchField.sendKeys(searchStr);
 		utils.driver.findElement(SEARCH_BUTTON).click();
 	}
+
 }
