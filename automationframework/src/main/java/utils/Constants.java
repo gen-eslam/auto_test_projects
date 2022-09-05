@@ -6,5 +6,10 @@ public class Constants {
     public static final String CHROME = "driver.strategy.Chrome";
     public static final String FIREFOX ="driver.strategy.Firefox";
     public static final String PHANTOMJS= "driver.strategy.PhantomJs";
+    public static final String CART_QUANTITY = "1 Product";
+    public static final int TIMEOUT =15;
+    public static final String COMPLETE_ORDER="Your order on My Store is complete.";
+    public static final String EMAIL = "email";
+    public static final String PASSWORD="password";
 
 }
