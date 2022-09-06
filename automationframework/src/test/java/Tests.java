@@ -10,7 +10,9 @@ import utils.Constants;
 import utils.FrameworkProperties;
 
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class Tests {
@@ -60,7 +62,9 @@ public class Tests {
         checkoutPage.confirmShipping();
         checkoutPage.payByBankWired();
         checkoutPage.confirmFinalOrder();
-        assertEquals(true, checkoutPage.checkFinalStatus());
+        assertTrue(checkoutPage.checkFinalStatus());
+
+
 
 
     }

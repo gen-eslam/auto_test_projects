@@ -35,6 +35,24 @@ public class HomePage {
     private WebElement signInButton;
     @FindBy(css= "#header > div.nav > div > div > nav > div:nth-child(1) > a")
     private WebElement userName;
+    @FindBy(id="search_query_top")
+    private WebElement searchBar;
+    @FindBy(css="#searchbox > button")
+    private WebElement searchButton;
+    @FindBy(css = "#center_column > ul > li > div > div.left-block > div > a.product_img_link > img")
+    private WebElement searchResult;
+
+    public Boolean searchElement(String searchStr){
+        searchBar.sendKeys(searchStr);
+        searchButton.click();
+        try {
+            if(searchResult.isEnabled())
+                return true;
+        }catch (Exception e){
+            return false;
+        }
+        return false;
+    }
 
     public void clickSingIn(){
         WebDriverWait wait = new WebDriverWait(driver,Constants.TIMEOUT);
