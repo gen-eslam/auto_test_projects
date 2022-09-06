@@ -15,4 +15,7 @@ public class Constants {
     public static final String USER_NAME="username";
     public static final String BROWSER = "browser";
     public static final String CART_QUANTITY_TEST ="2 Products";
+    public static final String SCREEN_SHOT_FOLDER = "ScreenShot\\";
+    public static final int SCREENSHOT_NAME_LENGHT = 4;
+    public static final String SCREENSHOT_EXTINTION = ".png";
 }

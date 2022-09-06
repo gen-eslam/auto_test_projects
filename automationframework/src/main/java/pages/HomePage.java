@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Constants;
+import utils.Utils;
 
 public class HomePage {
     private WebDriver driver;
@@ -73,7 +74,10 @@ public class HomePage {
         if(cart.getText().contains(Constants.CART_QUANTITY))
             System.out.println("Cart has been updated");
         else
+        {
             System.out.println("Cart has not been updated");
+            Utils.takeScreenShot();
+        }
     }
     public void addSecondElementToCart(){
         Actions hover = new Actions(driver);
