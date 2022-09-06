@@ -31,6 +31,19 @@ public class HomePage {
     private WebElement firstElement;
     @FindBy(css="#homefeatured > li:nth-child(2)")
     private WebElement secondElement;
+    @FindBy(css = "#header > div.nav > div > div > nav > div.header_user_info > a")
+    private WebElement signInButton;
+    @FindBy(css= "#header > div.nav > div > div > nav > div:nth-child(1) > a")
+    private WebElement userName;
+
+    public void clickSingIn(){
+        WebDriverWait wait = new WebDriverWait(driver,Constants.TIMEOUT);
+        wait.until(ExpectedConditions.elementToBeClickable(signInButton));
+        signInButton.click();
+    }
+    public String getUserName(){
+        return userName.getText();
+    }
 
     public void addFirstElementToCart(){
         Actions hover = new Actions(driver);
